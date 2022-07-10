@@ -38,19 +38,19 @@ Partial Class Form1
         Me.email_txtbox = New System.Windows.Forms.TextBox()
         Me.address_txtbox = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
+        Me.out_country_no = New System.Windows.Forms.RadioButton()
+        Me.out_country_yes = New System.Windows.Forms.RadioButton()
+        Me.flu_no = New System.Windows.Forms.RadioButton()
+        Me.flu_yes = New System.Windows.Forms.RadioButton()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton7 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
+        Me.vaccinate_no = New System.Windows.Forms.RadioButton()
+        Me.vaccinate_yes = New System.Windows.Forms.RadioButton()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
+        Me.covid_no = New System.Windows.Forms.RadioButton()
+        Me.covid_yes = New System.Windows.Forms.RadioButton()
         Me.submit_btn = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.reset_btn = New System.Windows.Forms.Button()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.time_label = New System.Windows.Forms.Label()
         Me.time_txtbox = New System.Windows.Forms.TextBox()
@@ -204,8 +204,8 @@ Partial Class Form1
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.RadioButton3)
-        Me.GroupBox2.Controls.Add(Me.RadioButton4)
+        Me.GroupBox2.Controls.Add(Me.out_country_no)
+        Me.GroupBox2.Controls.Add(Me.out_country_yes)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.GroupBox2.Location = New System.Drawing.Point(16, 363)
         Me.GroupBox2.Name = "GroupBox2"
@@ -214,58 +214,58 @@ Partial Class Form1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Have you been outside the country for the past 14 days?"
         '
-        'RadioButton3
+        'out_country_no
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.RadioButton3.Location = New System.Drawing.Point(241, 34)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(51, 24)
-        Me.RadioButton3.TabIndex = 1
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "No"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.out_country_no.AutoSize = True
+        Me.out_country_no.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.out_country_no.Location = New System.Drawing.Point(241, 34)
+        Me.out_country_no.Name = "out_country_no"
+        Me.out_country_no.Size = New System.Drawing.Size(51, 24)
+        Me.out_country_no.TabIndex = 1
+        Me.out_country_no.TabStop = True
+        Me.out_country_no.Text = "No"
+        Me.out_country_no.UseVisualStyleBackColor = True
         '
-        'RadioButton4
+        'out_country_yes
         '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.RadioButton4.Location = New System.Drawing.Point(110, 34)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(58, 24)
-        Me.RadioButton4.TabIndex = 0
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "Yes"
-        Me.RadioButton4.UseVisualStyleBackColor = True
+        Me.out_country_yes.AutoSize = True
+        Me.out_country_yes.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.out_country_yes.Location = New System.Drawing.Point(110, 34)
+        Me.out_country_yes.Name = "out_country_yes"
+        Me.out_country_yes.Size = New System.Drawing.Size(58, 24)
+        Me.out_country_yes.TabIndex = 0
+        Me.out_country_yes.TabStop = True
+        Me.out_country_yes.Text = "Yes"
+        Me.out_country_yes.UseVisualStyleBackColor = True
         '
-        'RadioButton5
+        'flu_no
         '
-        Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.RadioButton5.Location = New System.Drawing.Point(241, 34)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(51, 24)
-        Me.RadioButton5.TabIndex = 1
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "No"
-        Me.RadioButton5.UseVisualStyleBackColor = True
+        Me.flu_no.AutoSize = True
+        Me.flu_no.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.flu_no.Location = New System.Drawing.Point(241, 34)
+        Me.flu_no.Name = "flu_no"
+        Me.flu_no.Size = New System.Drawing.Size(51, 24)
+        Me.flu_no.TabIndex = 1
+        Me.flu_no.TabStop = True
+        Me.flu_no.Text = "No"
+        Me.flu_no.UseVisualStyleBackColor = True
         '
-        'RadioButton6
+        'flu_yes
         '
-        Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.RadioButton6.Location = New System.Drawing.Point(110, 34)
-        Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(58, 24)
-        Me.RadioButton6.TabIndex = 0
-        Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "Yes"
-        Me.RadioButton6.UseVisualStyleBackColor = True
+        Me.flu_yes.AutoSize = True
+        Me.flu_yes.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.flu_yes.Location = New System.Drawing.Point(110, 34)
+        Me.flu_yes.Name = "flu_yes"
+        Me.flu_yes.Size = New System.Drawing.Size(58, 24)
+        Me.flu_yes.TabIndex = 0
+        Me.flu_yes.TabStop = True
+        Me.flu_yes.Text = "Yes"
+        Me.flu_yes.UseVisualStyleBackColor = True
         '
         'GroupBox3
         '
-        Me.GroupBox3.Controls.Add(Me.RadioButton5)
-        Me.GroupBox3.Controls.Add(Me.RadioButton6)
+        Me.GroupBox3.Controls.Add(Me.flu_no)
+        Me.GroupBox3.Controls.Add(Me.flu_yes)
         Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.GroupBox3.Location = New System.Drawing.Point(16, 441)
         Me.GroupBox3.Name = "GroupBox3"
@@ -274,77 +274,77 @@ Partial Class Form1
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Have you been experiencing flu like symptoms?"
         '
-        'RadioButton7
+        'vaccinate_no
         '
-        Me.RadioButton7.AutoSize = True
-        Me.RadioButton7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.RadioButton7.Location = New System.Drawing.Point(241, 34)
-        Me.RadioButton7.Name = "RadioButton7"
-        Me.RadioButton7.Size = New System.Drawing.Size(51, 24)
-        Me.RadioButton7.TabIndex = 1
-        Me.RadioButton7.TabStop = True
-        Me.RadioButton7.Text = "No"
-        Me.RadioButton7.UseVisualStyleBackColor = True
+        Me.vaccinate_no.AutoSize = True
+        Me.vaccinate_no.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.vaccinate_no.Location = New System.Drawing.Point(241, 34)
+        Me.vaccinate_no.Name = "vaccinate_no"
+        Me.vaccinate_no.Size = New System.Drawing.Size(51, 24)
+        Me.vaccinate_no.TabIndex = 1
+        Me.vaccinate_no.TabStop = True
+        Me.vaccinate_no.Text = "No"
+        Me.vaccinate_no.UseVisualStyleBackColor = True
         '
-        'RadioButton8
+        'vaccinate_yes
         '
-        Me.RadioButton8.AutoSize = True
-        Me.RadioButton8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.RadioButton8.Location = New System.Drawing.Point(110, 34)
-        Me.RadioButton8.Name = "RadioButton8"
-        Me.RadioButton8.Size = New System.Drawing.Size(58, 24)
-        Me.RadioButton8.TabIndex = 0
-        Me.RadioButton8.TabStop = True
-        Me.RadioButton8.Text = "Yes"
-        Me.RadioButton8.UseVisualStyleBackColor = True
+        Me.vaccinate_yes.AutoSize = True
+        Me.vaccinate_yes.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.vaccinate_yes.Location = New System.Drawing.Point(110, 34)
+        Me.vaccinate_yes.Name = "vaccinate_yes"
+        Me.vaccinate_yes.Size = New System.Drawing.Size(58, 24)
+        Me.vaccinate_yes.TabIndex = 0
+        Me.vaccinate_yes.TabStop = True
+        Me.vaccinate_yes.Text = "Yes"
+        Me.vaccinate_yes.UseVisualStyleBackColor = True
         '
         'GroupBox4
         '
-        Me.GroupBox4.Controls.Add(Me.RadioButton7)
-        Me.GroupBox4.Controls.Add(Me.RadioButton8)
+        Me.GroupBox4.Controls.Add(Me.vaccinate_no)
+        Me.GroupBox4.Controls.Add(Me.vaccinate_yes)
         Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.GroupBox4.Location = New System.Drawing.Point(16, 519)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(416, 69)
         Me.GroupBox4.TabIndex = 16
         Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Have you been Vaccinated for the past 14 days?"
+        Me.GroupBox4.Text = "Have you been recently vaccinated in the past 14 days?"
         '
         'GroupBox5
         '
-        Me.GroupBox5.Controls.Add(Me.RadioButton9)
-        Me.GroupBox5.Controls.Add(Me.RadioButton10)
+        Me.GroupBox5.Controls.Add(Me.covid_no)
+        Me.GroupBox5.Controls.Add(Me.covid_yes)
         Me.GroupBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.GroupBox5.Location = New System.Drawing.Point(16, 602)
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Size = New System.Drawing.Size(416, 69)
         Me.GroupBox5.TabIndex = 17
         Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "Have you shown symptoms of Covid in the past14 days?"
+        Me.GroupBox5.Text = "Have you shown symptoms of Covid in the past 14 days?"
         '
-        'RadioButton9
+        'covid_no
         '
-        Me.RadioButton9.AutoSize = True
-        Me.RadioButton9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.RadioButton9.Location = New System.Drawing.Point(241, 34)
-        Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(51, 24)
-        Me.RadioButton9.TabIndex = 1
-        Me.RadioButton9.TabStop = True
-        Me.RadioButton9.Text = "No"
-        Me.RadioButton9.UseVisualStyleBackColor = True
+        Me.covid_no.AutoSize = True
+        Me.covid_no.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.covid_no.Location = New System.Drawing.Point(241, 34)
+        Me.covid_no.Name = "covid_no"
+        Me.covid_no.Size = New System.Drawing.Size(51, 24)
+        Me.covid_no.TabIndex = 1
+        Me.covid_no.TabStop = True
+        Me.covid_no.Text = "No"
+        Me.covid_no.UseVisualStyleBackColor = True
         '
-        'RadioButton10
+        'covid_yes
         '
-        Me.RadioButton10.AutoSize = True
-        Me.RadioButton10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.RadioButton10.Location = New System.Drawing.Point(110, 34)
-        Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(58, 24)
-        Me.RadioButton10.TabIndex = 0
-        Me.RadioButton10.TabStop = True
-        Me.RadioButton10.Text = "Yes"
-        Me.RadioButton10.UseVisualStyleBackColor = True
+        Me.covid_yes.AutoSize = True
+        Me.covid_yes.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.covid_yes.Location = New System.Drawing.Point(110, 34)
+        Me.covid_yes.Name = "covid_yes"
+        Me.covid_yes.Size = New System.Drawing.Size(58, 24)
+        Me.covid_yes.TabIndex = 0
+        Me.covid_yes.TabStop = True
+        Me.covid_yes.Text = "Yes"
+        Me.covid_yes.UseVisualStyleBackColor = True
         '
         'submit_btn
         '
@@ -356,15 +356,15 @@ Partial Class Form1
         Me.submit_btn.Text = "Submit"
         Me.submit_btn.UseVisualStyleBackColor = True
         '
-        'Button2
+        'reset_btn
         '
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.Button2.Location = New System.Drawing.Point(365, 689)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(78, 32)
-        Me.Button2.TabIndex = 19
-        Me.Button2.Text = "Reset"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.reset_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.reset_btn.Location = New System.Drawing.Point(365, 689)
+        Me.reset_btn.Name = "reset_btn"
+        Me.reset_btn.Size = New System.Drawing.Size(78, 32)
+        Me.reset_btn.TabIndex = 19
+        Me.reset_btn.Text = "Reset"
+        Me.reset_btn.UseVisualStyleBackColor = True
         '
         'DateTimePicker1
         '
@@ -399,7 +399,7 @@ Partial Class Form1
         Me.Controls.Add(Me.time_txtbox)
         Me.Controls.Add(Me.time_label)
         Me.Controls.Add(Me.DateTimePicker1)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.reset_btn)
         Me.Controls.Add(Me.submit_btn)
         Me.Controls.Add(Me.GroupBox5)
         Me.Controls.Add(Me.GroupBox4)
@@ -451,19 +451,19 @@ Partial Class Form1
     Friend WithEvents email_txtbox As TextBox
     Friend WithEvents address_txtbox As TextBox
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents RadioButton4 As RadioButton
-    Friend WithEvents RadioButton5 As RadioButton
-    Friend WithEvents RadioButton6 As RadioButton
+    Friend WithEvents out_country_no As RadioButton
+    Friend WithEvents out_country_yes As RadioButton
+    Friend WithEvents flu_no As RadioButton
+    Friend WithEvents flu_yes As RadioButton
     Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents RadioButton7 As RadioButton
-    Friend WithEvents RadioButton8 As RadioButton
+    Friend WithEvents vaccinate_no As RadioButton
+    Friend WithEvents vaccinate_yes As RadioButton
     Friend WithEvents GroupBox4 As GroupBox
     Friend WithEvents GroupBox5 As GroupBox
-    Friend WithEvents RadioButton9 As RadioButton
-    Friend WithEvents RadioButton10 As RadioButton
+    Friend WithEvents covid_no As RadioButton
+    Friend WithEvents covid_yes As RadioButton
     Friend WithEvents submit_btn As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents reset_btn As Button
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents time_label As Label
     Friend WithEvents time_txtbox As TextBox
