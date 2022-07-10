@@ -29,14 +29,14 @@ Partial Class Form1
         Me.female_radbtn = New System.Windows.Forms.RadioButton()
         Me.male_radbtn = New System.Windows.Forms.RadioButton()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.age_txtbox = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.contact_txtbox = New System.Windows.Forms.TextBox()
+        Me.email_txtbox = New System.Windows.Forms.TextBox()
+        Me.address_txtbox = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
@@ -53,7 +53,7 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.time_label = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.time_txtbox = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -134,12 +134,12 @@ Partial Class Form1
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Age:"
         '
-        'TextBox2
+        'age_txtbox
         '
-        Me.TextBox2.Location = New System.Drawing.Point(284, 155)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(148, 22)
-        Me.TextBox2.TabIndex = 5
+        Me.age_txtbox.Location = New System.Drawing.Point(284, 155)
+        Me.age_txtbox.Name = "age_txtbox"
+        Me.age_txtbox.Size = New System.Drawing.Size(148, 22)
+        Me.age_txtbox.TabIndex = 5
         '
         'Label4
         '
@@ -181,26 +181,26 @@ Partial Class Form1
         Me.Label7.TabIndex = 9
         Me.Label7.Text = "Address:"
         '
-        'TextBox3
+        'contact_txtbox
         '
-        Me.TextBox3.Location = New System.Drawing.Point(120, 218)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(312, 22)
-        Me.TextBox3.TabIndex = 10
+        Me.contact_txtbox.Location = New System.Drawing.Point(120, 218)
+        Me.contact_txtbox.Name = "contact_txtbox"
+        Me.contact_txtbox.Size = New System.Drawing.Size(312, 22)
+        Me.contact_txtbox.TabIndex = 10
         '
-        'TextBox4
+        'email_txtbox
         '
-        Me.TextBox4.Location = New System.Drawing.Point(74, 255)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(358, 22)
-        Me.TextBox4.TabIndex = 11
+        Me.email_txtbox.Location = New System.Drawing.Point(74, 255)
+        Me.email_txtbox.Name = "email_txtbox"
+        Me.email_txtbox.Size = New System.Drawing.Size(358, 22)
+        Me.email_txtbox.TabIndex = 11
         '
-        'TextBox6
+        'address_txtbox
         '
-        Me.TextBox6.Location = New System.Drawing.Point(94, 322)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(338, 22)
-        Me.TextBox6.TabIndex = 13
+        Me.address_txtbox.Location = New System.Drawing.Point(94, 322)
+        Me.address_txtbox.Name = "address_txtbox"
+        Me.address_txtbox.Size = New System.Drawing.Size(338, 22)
+        Me.address_txtbox.TabIndex = 13
         '
         'GroupBox2
         '
@@ -384,19 +384,19 @@ Partial Class Form1
         Me.time_label.TabIndex = 21
         Me.time_label.Text = "Time:"
         '
-        'TextBox5
+        'time_txtbox
         '
-        Me.TextBox5.Location = New System.Drawing.Point(353, 287)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(79, 22)
-        Me.TextBox5.TabIndex = 22
+        Me.time_txtbox.Location = New System.Drawing.Point(353, 287)
+        Me.time_txtbox.Name = "time_txtbox"
+        Me.time_txtbox.Size = New System.Drawing.Size(79, 22)
+        Me.time_txtbox.TabIndex = 22
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(467, 733)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.time_txtbox)
         Me.Controls.Add(Me.time_label)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.Button2)
@@ -405,14 +405,14 @@ Partial Class Form1
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.address_txtbox)
+        Me.Controls.Add(Me.email_txtbox)
+        Me.Controls.Add(Me.contact_txtbox)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.age_txtbox)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.fullname_txtbox)
@@ -442,14 +442,14 @@ Partial Class Form1
     Friend WithEvents female_radbtn As RadioButton
     Friend WithEvents male_radbtn As RadioButton
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents age_txtbox As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents contact_txtbox As TextBox
+    Friend WithEvents email_txtbox As TextBox
+    Friend WithEvents address_txtbox As TextBox
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents RadioButton3 As RadioButton
     Friend WithEvents RadioButton4 As RadioButton
@@ -466,5 +466,5 @@ Partial Class Form1
     Friend WithEvents Button2 As Button
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents time_label As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents time_txtbox As TextBox
 End Class
