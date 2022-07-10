@@ -24,10 +24,10 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.fullname_txtbox = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.female_radbtn = New System.Windows.Forms.RadioButton()
+        Me.male_radbtn = New System.Windows.Forms.RadioButton()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -81,17 +81,17 @@ Partial Class Form1
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Full Name:"
         '
-        'TextBox1
+        'fullname_txtbox
         '
-        Me.TextBox1.Location = New System.Drawing.Point(103, 73)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(329, 22)
-        Me.TextBox1.TabIndex = 2
+        Me.fullname_txtbox.Location = New System.Drawing.Point(103, 73)
+        Me.fullname_txtbox.Name = "fullname_txtbox"
+        Me.fullname_txtbox.Size = New System.Drawing.Size(329, 22)
+        Me.fullname_txtbox.TabIndex = 2
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.RadioButton2)
-        Me.GroupBox1.Controls.Add(Me.RadioButton1)
+        Me.GroupBox1.Controls.Add(Me.female_radbtn)
+        Me.GroupBox1.Controls.Add(Me.male_radbtn)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.GroupBox1.Location = New System.Drawing.Point(16, 117)
         Me.GroupBox1.Name = "GroupBox1"
@@ -100,29 +100,29 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Sex"
         '
-        'RadioButton2
+        'female_radbtn
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.RadioButton2.Location = New System.Drawing.Point(110, 34)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(85, 24)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Female"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.female_radbtn.AutoSize = True
+        Me.female_radbtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.female_radbtn.Location = New System.Drawing.Point(110, 34)
+        Me.female_radbtn.Name = "female_radbtn"
+        Me.female_radbtn.Size = New System.Drawing.Size(85, 24)
+        Me.female_radbtn.TabIndex = 1
+        Me.female_radbtn.TabStop = True
+        Me.female_radbtn.Text = "Female"
+        Me.female_radbtn.UseVisualStyleBackColor = True
         '
-        'RadioButton1
+        'male_radbtn
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.RadioButton1.Location = New System.Drawing.Point(13, 34)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(66, 24)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Male"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.male_radbtn.AutoSize = True
+        Me.male_radbtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.male_radbtn.Location = New System.Drawing.Point(13, 34)
+        Me.male_radbtn.Name = "male_radbtn"
+        Me.male_radbtn.Size = New System.Drawing.Size(66, 24)
+        Me.male_radbtn.TabIndex = 0
+        Me.male_radbtn.TabStop = True
+        Me.male_radbtn.Text = "Male"
+        Me.male_radbtn.UseVisualStyleBackColor = True
         '
         'Label3
         '
@@ -415,7 +415,7 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.fullname_txtbox)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
@@ -437,10 +437,10 @@ Partial Class Form1
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents fullname_txtbox As TextBox
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents female_radbtn As RadioButton
+    Friend WithEvents male_radbtn As RadioButton
     Friend WithEvents Label3 As Label
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label4 As Label
