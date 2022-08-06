@@ -22,9 +22,11 @@ Partial Class QR
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.pic_box = New System.Windows.Forms.PictureBox()
         Me.btn_scan = New System.Windows.Forms.Button()
+        Me.timer_qr = New System.Windows.Forms.Timer(Me.components)
         CType(Me.pic_box, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -56,6 +58,10 @@ Partial Class QR
         Me.btn_scan.Text = "Click to Scan"
         Me.btn_scan.UseVisualStyleBackColor = True
         '
+        'timer_qr
+        '
+        Me.timer_qr.Interval = 1000
+        '
         'QR
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -75,4 +81,5 @@ Partial Class QR
     Friend WithEvents Label1 As Label
     Friend WithEvents pic_box As PictureBox
     Friend WithEvents btn_scan As Button
+    Friend WithEvents timer_qr As Timer
 End Class

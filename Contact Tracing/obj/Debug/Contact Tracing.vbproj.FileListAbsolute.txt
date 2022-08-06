@@ -19,3 +19,6 @@ C:\Users\justi\OneDrive\Desktop\Contact Tracing\Contact Tracing\obj\Debug\Contac
 C:\Users\justi\OneDrive\Desktop\Contact Tracing\Contact Tracing\obj\Debug\Contact Tracing.exe
 C:\Users\justi\OneDrive\Desktop\Contact Tracing\Contact Tracing\obj\Debug\Contact Tracing.xml
 C:\Users\justi\OneDrive\Desktop\Contact Tracing\Contact Tracing\obj\Debug\Contact Tracing.pdb
+C:\Users\justi\OneDrive\Desktop\Contact Tracing\Contact Tracing\bin\Debug\zxing.dll
+C:\Users\justi\OneDrive\Desktop\Contact Tracing\Contact Tracing\bin\Debug\zxing.pdb
+C:\Users\justi\OneDrive\Desktop\Contact Tracing\Contact Tracing\bin\Debug\zxing.xml

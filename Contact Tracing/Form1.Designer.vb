@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.fullname_txtbox = New System.Windows.Forms.TextBox()
@@ -54,6 +55,7 @@ Partial Class Form1
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.time_label = New System.Windows.Forms.Label()
         Me.time_txtbox = New System.Windows.Forms.TextBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -467,4 +469,6 @@ Partial Class Form1
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents time_label As Label
     Friend WithEvents time_txtbox As TextBox
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents current_timeLabel As Label
 End Class
