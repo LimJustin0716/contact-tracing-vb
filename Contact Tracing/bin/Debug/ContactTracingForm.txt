@@ -1,0 +1,15 @@
+Quezon City Contact Tracing Form
+
+Full Name: 
+Age: 
+Gender: Female
+Contact No: 
+Email: 
+Date: Sunday, 10 July 2022
+Time: 
+Address: 
+Have you been outside the country for 14 days?: No
+Are you experiencing flu like symptoms?: No
+Have you been recently vaccinated in the past 14 days?: No
+Have you shown symptoms of Covid in the past 14 days?: No
+
